@@ -1,0 +1,124 @@
+*{ 
+ margin: 0;
+ padding: 0;
+ font-family: reloginho;
+ box-sizing: border-box;
+ background:url("/css/ff.jpg");
+ height: auto;
+ width: auto;
+  
+}
+
+.container{
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+;
+
+}
+.teste{
+    backdrop-filter:blur(10px);
+    background: rgba(10, 10, 10, 0.6);
+    margin: 50px;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.container h1{
+    color: turquoise;
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0);
+    
+}
+
+.container .timer{
+    display: flex;
+    font-size: 45px;
+    color: #504f4f;
+    background: rgba(0, 0, 0, 0);
+}
+
+.container .time{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    color:#504f4f;
+    min-width: 90px;
+
+    background: rgba(0, 0, 0, 0);
+}
+
+.separador{
+     
+     font-size: 60px;
+     padding: 0 10px;
+     color: #504f4f;
+     background: rgba(0, 0, 0, 0);
+}
+
+.container #milisegundos{
+     font-size: 30px;
+     color: rgb(5, 199, 199);
+}
+
+.container .buttons{
+    background: rgba(0, 0, 0, 0);
+}
+
+.button{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(36, 36, 36);
+    font-size: 18px;
+    color: aquamarine;
+    transition: 0.2s;
+    
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+    color: #504f4f;
+}
+
+#btnStart{
+    background: rgb(36, 36, 36);
+    color: aquamarine;
+
+}
+
+#btnPause, #btnContinue{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: reloginho;
+    src: url("digital-7.ttf");
+}
